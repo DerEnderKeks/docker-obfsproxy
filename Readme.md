@@ -20,4 +20,4 @@ If you prefer to use `docker-compose` you can use the included `gen_config.sh` s
 
 Execute `./gen_config.sh` to get the usage of `obfsproxy`. Then, execute `./gen_config.sh <obfsproxy arguments>` to generate the `docker-compose.yml` file with the given arguments.
 
-Now start the container with `docker-compose up` or `docker-compose up -d` for detached mode. Stop it using `docker-compose stop`
+Now start the container with `docker-compose up` or `docker-compose up -d` for detached mode. Stop it using `docker-compose stop`.

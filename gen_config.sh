@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 if [ -z "$1" ]; then
-    echo "Pass all arguments that you want to get passed to obfsproxy.
+    echo "Pass all arguments to this script that you want to get passed to obfsproxy.
     "
 
     docker run --rm derenderkeks/obfsproxy

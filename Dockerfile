@@ -8,6 +8,4 @@ RUN pip install --upgrade pip
 RUN pip install incremental
 RUN pip install obfsproxy
 
-EXPOSE 8080
-
 CMD ["obfsproxy", "-h"]
